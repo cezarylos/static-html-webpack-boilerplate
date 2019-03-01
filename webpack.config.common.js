@@ -34,10 +34,6 @@ module.exports = {
   },
   plugins: [
     new CopyWebpackPlugin([
-      {
-        from: './src/static/',
-        to: './static/',
-      },
     ]),
     ...generateHTMLPlugins(),
   ],
